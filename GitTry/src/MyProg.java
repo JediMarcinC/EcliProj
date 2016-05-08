@@ -18,5 +18,9 @@ public class MyProg {
 		}
 		return output;
 	}
+	
+	public void printMe() {
+		System.out.println("It's me, MyProg.");
+	}
 
 }
