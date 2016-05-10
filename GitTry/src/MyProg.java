@@ -1,5 +1,6 @@
 
 public class MyProg {
+	int count=0;
 
 	public static void main(String[] args) {
 		MyProg mp = new MyProg();
@@ -21,6 +22,7 @@ public class MyProg {
 	
 	public void printMe() {
 		System.out.println("It's me, MyProg.");
+		System.out.println("Nice to meet you.");
 	}
 
 }
