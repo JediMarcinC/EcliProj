@@ -9,6 +9,7 @@ public class MyProg {
 
 	}
 	public int multi(int a, int b) {
+		count++;
 		return a*b;
 	}
 	
@@ -20,9 +21,12 @@ public class MyProg {
 		return output;
 	}
 	
+	public boolean hasMultiBeenDone() {
+		return count>0;
+	}
+	
 	public void printMe() {
-		System.out.println("It's me, MyProg.");
-		System.out.println("Nice to meet you.");
+		System.out.println("It's a branch of variant1, variant 1-1");
 	}
 
 }
