@@ -9,6 +9,7 @@ public class MyProg {
 
 	}
 	public int multi(int a, int b) {
+		System.out.println("Multiplying");
 		count++;
 		return a*b;
 	}
@@ -20,6 +21,8 @@ public class MyProg {
 		}
 		return output;
 	}
+	
+	public void doNothing() {	}
 	
 	public boolean hasMultiBeenDone() {
 		return count>0;
